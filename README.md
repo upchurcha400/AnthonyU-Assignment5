@@ -1,21 +1,11 @@
-# Assignment 5 starter
+Custom ArrayList Implementation:  
 
-## Use the Easy Way - Import as Maven Project
+Added CustomArrayList class with basic add, get, and getSize methods. 
 
-This is a couple minutes of work once you learn the system (which you will be doing anyway)
+Handles dynamic resizing when the array gets full. 
 
-- Use this template to create `Assignment5` in your own github
-- Clone that down to your bootcamp workspace
-- In Eclipse, import this as a Maven project
-- Skip the first 6 minutes of the Assignment 5 video
-- Go to work
+Tested it out by adding more than 10 elements, making sure it grows as needed. 
 
+Everything seems to be working fine, elements are storing and retrieving correctly. 
 
-## Use the older way as course videos show
-
-- Clone this project, but only as a source for the 2 java files you need
-- Follow Trevor's video
-
-## Request For Feedback
-
-This project is released in beta. Please slack Pete directly, if you have any difficulties using this project in it's current state.
+Added print statements to display the process of increasing array size and copying elements.
